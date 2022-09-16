@@ -11,7 +11,7 @@ Pipenv is a Python package and dependency manager for Python projects. It harnes
 
 1. To install pipenv, we need Python and pip. In the command line, please check Python and pip versions:
 
-python -V \\
+python -V <br>
 pip -V
 
 2. If both Python and pip are already installed, type the following line:
