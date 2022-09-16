@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <!--{% load static %}-->
+    <h2 class="my-4">Picture</h2>
+      <img src="{{image.image.url}}" alt="{{image.name}}" style="width:150px;">
+      <p>{{image.name}}</p>
+  </body>
+</html>
